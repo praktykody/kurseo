@@ -1,0 +1,25 @@
+body {
+  background-color: #fdd892;
+}
+
+body header {
+  background-color: rgba(255, 255, 255, 0.479);
+  padding: 2%;
+  padding-top: 1%;
+}
+
+body header a {
+  text-decoration: none;
+  color: #000;
+}
+
+body header nav {
+  border: 2px dashed #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+body header nav a {
+  padding: 2%;
+  background-color: #7a7878;
+}
