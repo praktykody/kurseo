@@ -1,0 +1,22 @@
+body{
+  background-color:rgb(253, 216, 146);
+
+  header{
+    background-color:rgba(255, 255, 255, 0.479);
+    padding:2%;
+    padding-top:1%;
+    a{
+      text-decoration:none;
+      color:#000;
+    }
+    nav{
+      border:2px dashed #fff;
+      display:flex;
+      justify-content: space-between;
+      a{
+        padding:2%;
+        background-color:rgb(122, 120, 120);
+      }
+    }
+  }
+}
