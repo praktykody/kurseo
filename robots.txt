@@ -1,0 +1,1 @@
+sitemap: https://apietryga.github.io/kurseo/sitemap.xml
