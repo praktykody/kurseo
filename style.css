@@ -8,16 +8,16 @@ body {
   margin: 0;
 }
 
-body header {
-  background-color: rgba(0, 0, 0, 0.788);
-  padding: 2%;
-}
-
-body header a {
+body a {
   text-decoration: none;
   color: inherit;
   display: flex;
   align-items: center;
+}
+
+body header {
+  background-color: rgba(0, 0, 0, 0.788);
+  padding: 2%;
 }
 
 body header h1 {
@@ -72,4 +72,9 @@ body footer {
   width: 100%;
   text-align: right;
   padding: 2%;
+}
+
+body footer nav {
+  display: flex;
+  flex-direction: column;
 }

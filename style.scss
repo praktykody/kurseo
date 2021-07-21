@@ -5,15 +5,16 @@ body{
   background-color:rgb(143, 141, 139);
   color:#fff;
   margin:0;
+  a{
+    text-decoration:none;
+    color:inherit;
+    display:flex;
+    align-items: center;
+  }
   header{
     background-color:rgba(0, 0, 0, 0.788);
     padding:2%;
-    a{
-      text-decoration:none;
-      color:inherit;
-      display:flex;
-      align-items: center;
-    }
+    
     h1{
       margin:0;
       padding:2%;
@@ -62,5 +63,9 @@ body{
     width:100%;
     text-align:right;
     padding:2%;
+    nav{
+      display:flex;
+      flex-direction:column;
+    }
   }
 }
